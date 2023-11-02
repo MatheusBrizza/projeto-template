@@ -1,0 +1,5 @@
+.menu-inicial{
+    display: flex;
+    
+    justify-content: space-around;
+}
