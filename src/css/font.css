@@ -1,7 +1,7 @@
 @font-face {
   font-family: "FontAwesome";
   src: local("FontAwesome"),
-    url("../font/Font\ Awesome\ 5\ Brands-Regular-400.otf") format("opentype"),
-    url("../font/Font\ Awesome\ 5\ Free-Regular-400.otf") format("opentype"),
-    url("../font/Font\ Awesome\ 5\ Free-Solid-900.otf") format("opentype");
+    url("../font/font_awesome_5_brands-regular-400-webfont.woff2") format("woff2"),
+    url("../font/font_awesome_5_free-regular-400-webfont.woff2") format("woff2"),
+    url("../font/font_awesome_5_free-solid-900-webfont.woff2") format("woff2");
 }
