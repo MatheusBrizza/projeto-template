@@ -8,8 +8,15 @@
    --cor-titulo: #fdff73;
 }
 
+section {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 640px;
+}
+
 .plano-de-fundo {
-  height: 85vh;
+  height: 100%;
   background-image: url(../img/image-01.jpg);
 }
 
