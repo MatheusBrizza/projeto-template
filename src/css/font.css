@@ -1,7 +1,14 @@
 @font-face {
-  font-family: "FontAwesome";
-  src: local("FontAwesome"),
-    url("../font/font_awesome_5_brands-regular-400-webfont.woff2") format("woff2"),
-    url("../font/font_awesome_5_free-regular-400-webfont.woff2") format("woff2"),
-    url("../font/font_awesome_5_free-solid-900-webfont.woff2") format("woff2");
+  font-family: "Open Sans";
+  src: local("Open Sans"),
+    url("../font/OpenSans-Bold.ttf") format("truetype"),
+    url("../font/OpenSans-BoldItalic.ttf") format("truetype"),
+    url("../font/OpenSans-ExtraBold.ttf") format("truetype"),
+    url("../font/OpenSans-ExtraBoldItalic.ttf") format("truetype"),
+    url("../font/OpenSans-Italic.ttf") format("truetype"),
+    url("../font/OpenSans-Light.ttf") format("truetype"),
+    url("../font/OpenSans-LightItalic.ttf") format("truetype"),
+    url("../font/OpenSans-Regular.ttf") format("truetype"),
+    url("../font/OpenSans-Semibold.ttf") format("truetype"),
+    url("../font/OpenSans-SemiboldItalic.ttf") format("truetype");
 }

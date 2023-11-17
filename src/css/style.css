@@ -1,10 +1,10 @@
 @font-face {
-  font-family: FontAwesome;
-  src: url(../font/font_awesome_5_brands-regular-400-webfont.woff2);
+  font-family: "OpenSans";
+  src: url(../font/OpenSans-Regular.ttf);
 }
 
 :root {
-  --font: FontAwesome;
+  --font: "OpenSans";
    --cor-titulo: #fdff73;
 }
 
@@ -17,6 +17,7 @@
   width: 100%;
   display: flex;
   justify-content: space-around;
+  font-family: var(--font);
 }
 
 .home {
