@@ -8,8 +8,15 @@
    --cor-titulo: #fdff73;
 }
 
+section {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 640px;
+}
+
 .plano-de-fundo {
-  height: 85vh;
+  height: 100%;
   background-image: url(../img/image-01.jpg);
 }
 
@@ -51,6 +58,7 @@
 
 .flex-container>h2 {
   color: var(--cor-titulo);
+  margin-bottom: 40px;
 }
 
 .flex-container {
@@ -61,8 +69,7 @@
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.6);
   padding: 30px;
-  word-break: break-all;
-
+  max-width: 40vw;
 }
 
 .services {
@@ -80,7 +87,8 @@
 }
 
 p {
-  word-break: break-all;
+  color: white;
+  margin-bottom: 35px;
 }
 
 .imagens {
