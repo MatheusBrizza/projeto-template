@@ -16,12 +16,12 @@
 }
 
 section {
+  height: 100%;
+  min-height: 640px;
   background-image: url(../img/image-01.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 640px;
-  height: 100%;
 }
 
 .menu-inicial {
@@ -40,22 +40,21 @@ header>ul {
   width: 50vw;
 }
 
-
 .nav-item {
   position: relative;
   margin: 40px auto;
   box-sizing: content-box;
-
 }
 
 li {
+  min-height: 48px;
   display: flex;
   align-items: center;
-  min-height: 48px;
   margin-left: 60px;
   cursor: pointer;
   user-select: none;
   font-weight: bolder;
+  font-family: var(--font-texto);
 }
 
 a {
@@ -72,13 +71,17 @@ a {
 
 .titulo {
   text-align: center;
-  color: white;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
-  font-family: var(--font-titulo);
+  color: white;
 }
 
 .titulo>h1 {
   font-size: 3rem;
+  font-family: var(--font-titulo);
+}
+
+.titulo>h2 {
+  font-family: var(--font-texto);
 }
 
 .about {
@@ -91,11 +94,11 @@ a {
 }
 
 .flex-container {
-  margin-left: 150px;
   min-height: 560px;
   width: 400px;
   max-width: 480px;
   padding: 40px;
+  margin-left: 150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -103,10 +106,14 @@ a {
 }
 
 .flex-container>h2 {
+  margin-bottom: 40px;
   color: var(--cor-titulo);
   font-family: var(--font-titulo);
-  margin-bottom: 40px;
   font-size: 1.8rem;
+}
+
+.flex-container>p {
+  margin-bottom: 35px;
 }
 
 .flex-container-direito {
@@ -120,15 +127,46 @@ a {
 }
 
 .testimonials {
+  height: 517px;
   width: 100%;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-image: url(../img/image-04.jpg);
   font-family: var(--font);
 }
 
+.testimonials>h2 {
+  margin-bottom: 40px;
+  color: black;
+  font-size: 2.2rem;
+  font-family: var(--font-titulo);
+}
+
+.container-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  margin: 0px 15px;
+  background-color: var(--cor-fundo);
+  font-family: var(--font-texto);
+}
+
 p {
   color: white;
-  margin-bottom: 35px;
   font-size: 18px;
+  line-height: 1.8;
+}
+
+i {
+  margin-bottom: 40px;
 }
 
 .imagens {
@@ -152,13 +190,12 @@ p {
 .inputs {
   width: 350px;
   padding: .9rem 1.25rem;
+  margin-bottom: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
   background-color: rgba(0, 0, 0, 0.4);
   background-clip: padding-box;
   font-size: 1.15rem;
   color: white;
-  border-radius: 0;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  margin-bottom: 20px;
   font-family: var(--font-texto);
 }
 
@@ -169,12 +206,11 @@ input[type="email"] {
 
 button[type="submit"] {
   width: 9rem;
-  color: white;
-  background-color: rgba(0,0,0,0.3);
-  border: none;
   padding: 1rem 2.1rem;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.3);
   font-size: 1.3rem;
-  background-color: var(--cor-fundo);
+  color: white;
   font-family: var(--font-texto);
   transition: all 0.3s ease;
 }
